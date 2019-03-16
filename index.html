@@ -65,30 +65,22 @@
     <article id="post-利用github-hexo搭建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/03/16/利用github-hexo搭建个人博客/" class="article-date">
-  <time datetime="2019-03-16T05:09:00.000Z" itemprop="datePublished">2019-03-16</time>
+  <time datetime="2019-03-16T05:09:00.454Z" itemprop="datePublished">2019-03-16</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/03/16/利用github-hexo搭建个人博客/">利用github+hexo搭建个人博客</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="title-利用github-hexo搭建个人博客"><a href="#title-利用github-hexo搭建个人博客" class="headerlink" title="title: 利用github+hexo搭建个人博客"></a>title: 利用github+hexo搭建个人博客</h1><p>date: 2019-03-16 13:09:00</p>
+<h4 id="tags-1-下载node-js"><a href="#tags-1-下载node-js" class="headerlink" title="tags:1.下载node.js"></a>tags:1.下载node.js</h4><p>输入node -v查看版本</p>
+<h4 id="2-注册github-并创建仓库，注意仓库名要和用户名一致——-用户名-github-io"><a href="#2-注册github-并创建仓库，注意仓库名要和用户名一致——-用户名-github-io" class="headerlink" title="2.注册github 并创建仓库，注意仓库名要和用户名一致——-用户名.github.io"></a>2.注册github 并创建仓库，注意仓库名要和用户名一致——-用户名.github.io</h4><h4 id="3-下载Git"><a href="#3-下载Git" class="headerlink" title="3.下载Git"></a>3.下载Git</h4><h4 id="4-配置githubshh，打开git输入ssh-keygen-t-rsa-C-“邮箱”。一路回车，到-ssh文件夹下打开id-rsa-pub，复制里面密匙到github设置里面的SSH-and-GPG-keys选项，title随意，将密匙复制到下面保存"><a href="#4-配置githubshh，打开git输入ssh-keygen-t-rsa-C-“邮箱”。一路回车，到-ssh文件夹下打开id-rsa-pub，复制里面密匙到github设置里面的SSH-and-GPG-keys选项，title随意，将密匙复制到下面保存" class="headerlink" title="4.配置githubshh，打开git输入ssh-keygen -t rsa -C “邮箱”。一路回车，到.ssh文件夹下打开id_rsa.pub，复制里面密匙到github设置里面的SSH  and GPG keys选项，title随意，将密匙复制到下面保存"></a>4.配置githubshh，打开git输入ssh-keygen -t rsa -C “邮箱”。一路回车，到.ssh文件夹下打开id_rsa.pub，复制里面密匙到github设置里面的SSH  and GPG keys选项，title随意，将密匙复制到下面保存</h4><h4 id="5-建个文件夹存放框架，到文件夹下打开git，npm-install-hexo-cli-g安装hexo"><a href="#5-建个文件夹存放框架，到文件夹下打开git，npm-install-hexo-cli-g安装hexo" class="headerlink" title="5.建个文件夹存放框架，到文件夹下打开git，npm install hexo-cli -g安装hexo"></a>5.建个文件夹存放框架，到文件夹下打开git，npm install hexo-cli -g安装hexo</h4><h4 id="hexo-init-blog-初始化博客名（blog）"><a href="#hexo-init-blog-初始化博客名（blog）" class="headerlink" title="hexo init blog      初始化博客名（blog）"></a>hexo init blog      初始化博客名（blog）</h4><h4 id="cd-blog进入"><a href="#cd-blog进入" class="headerlink" title="cd blog进入"></a>cd blog进入</h4><h4 id="npm-install-安装依赖"><a href="#npm-install-安装依赖" class="headerlink" title="npm install 安装依赖"></a>npm install 安装依赖</h4><h4 id="hexo-server本地运行，浏览器输入：localhost：4000-查看"><a href="#hexo-server本地运行，浏览器输入：localhost：4000-查看" class="headerlink" title="hexo server本地运行，浏览器输入：localhost：4000 查看"></a>hexo server本地运行，浏览器输入：localhost：4000 查看</h4><h4 id="6-进入目录下找到-config-yml文件："><a href="#6-进入目录下找到-config-yml文件：" class="headerlink" title="6.进入目录下找到_config.yml文件："></a>6.进入目录下找到_config.yml文件：</h4><h4 id="修改URL链接为仓库链接-url-https-用户名-github-io"><a href="#修改URL链接为仓库链接-url-https-用户名-github-io" class="headerlink" title="修改URL链接为仓库链接==============url: https://用户名.github.io"></a>修改URL链接为仓库链接==============url: https://用户名.github.io</h4><h4 id="修改author-author-用户名"><a href="#修改author-author-用户名" class="headerlink" title="修改author:==================author: 用户名"></a>修改author:==================author: 用户名</h4><h4 id="下面type-为-git-type-git"><a href="#下面type-为-git-type-git" class="headerlink" title="下面type 为 git=================== type: git"></a>下面type 为 git=================== type: git</h4><h4 id="添加repo：仓库的URL"><a href="#添加repo：仓库的URL" class="headerlink" title="添加repo：仓库的URL"></a>添加repo：仓库的URL</h4><h4 id="添加-branch-master"><a href="#添加-branch-master" class="headerlink" title="添加 branch: master"></a>添加 branch: master</h4><h6 id="7-使用hexo-g更新"><a href="#7-使用hexo-g更新" class="headerlink" title="7.使用hexo g更新"></a>7.使用hexo g更新</h6><h6 id="hexo-d-上传"><a href="#hexo-d-上传" class="headerlink" title="hexo d 上传"></a>hexo d 上传</h6>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://phlzq.github.io/2019/03/16/利用github-hexo搭建个人博客/" data-id="cjtb3ln3i0001g8uxkrvhak8e" class="article-share-link">Share</a>
+      <a data-url="https://phlzq.github.io/2019/03/16/利用github-hexo搭建个人博客/" data-id="cjtb5vv2z0001jwuxdw7yf6eu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -133,7 +125,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://phlzq.github.io/2019/03/16/hello-world/" data-id="cjtb3ln350000g8uxlb21b6ul" class="article-share-link">Share</a>
+      <a data-url="https://phlzq.github.io/2019/03/16/hello-world/" data-id="cjtb5vv2t0000jwuxmsyl84ja" class="article-share-link">Share</a>
       
       
     </footer>
@@ -174,7 +166,7 @@
       <ul>
         
           <li>
-            <a href="/2019/03/16/利用github-hexo搭建个人博客/">利用github+hexo搭建个人博客</a>
+            <a href="/2019/03/16/利用github-hexo搭建个人博客/">(no title)</a>
           </li>
         
           <li>
